@@ -1,0 +1,69 @@
+/* body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /*background-color: #facfcf;*/
+    background-image: url('https://www.yesman.lk/assets/img/institutes/uoc_cover-1557375201.jpg');
+  }
+  
+  /* page title */
+  h1 {
+    color: #007bff;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* form and textarea */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f0f0;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  textarea::placeholder {
+    color: #b6eff8;
+  }
+  
+  input[type="submit"], input[type="button"] {
+    background-color: #e63946; /* red background color */
+    color: #f1faee; /* off-white text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #a8dadc; /* light green background color on hover */
+    color: #1d3557; /* dark blue text color on hover */
+  }
+  
+  /* response message */
+  div {
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #929393;
+
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+  }
+  
